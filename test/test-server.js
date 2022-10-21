@@ -27,7 +27,7 @@ describe('GET /', function () {
         if (err) {
           return done(err);
         }
-        chai.assert.isTrue(res.text.includes("<h1>Welcome to Cloud Gelato Application</h1>"));
+         chai.assert.isTrue(res.text.includes("<h1>Welcome to Cloud Gelato application</h1>"));
         return done();
       });
 
